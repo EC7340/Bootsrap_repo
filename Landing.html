@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LANDING PAGE</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-secondary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><photo></photo></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+      <!--End of nav bar-->
+    <div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://ichef.bbci.co.uk/news/800/cpsprodpb/159B9/production/_124950588_peterlp.jpg.webp" class="d-block w-100 h-5" alt="Peter Obi pic">
+          </div>
+          <div class="carousel-item">
+            <img src="https://independent.ng/wp-content/uploads/obi-and-datti.jpeg" class="d-block w-100 h-5" alt="Obi-Datti pic">
+          </div>
+          <div class="carousel-item">
+            <img src="https://guardian.ng/wp-content/uploads/2022/07/Peter-Obi.jpg" class="d-block w-100 h-5" alt="Peter Obi pic">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="row border border-danger">
+    <div class="row">
+        <div class="col-6 p-4 g-4 bg-success rounded mx-auto">
+            <h3 class="text text-light p-3">Register to become OBIdient</h3>
+            <div class="mb-3">
+                <label class="form-label" for="name">Full Name</label>
+                <input class="form-control form-control-sm" type="text" placeholder="Enter your name" name="name" id="name"
+                  required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="name">Email Address</label>
+                <input class="form-control form-control-sm" type="text" placeholder="Example@gmail.com" name="email" id="email"
+                  required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="name">Phone Number</label>
+                <input class="form-control form-control-sm" type="tel" placeholder="Enter your Whatsapp number" name="phone number" id="phone number"
+                  required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="name">Address</label>
+                <input class="form-control form-control-sm" type="text" placeholder="Address Line 1" name="address" id="Address"
+                  required>
+                <br>
+                <input class="form-control form-control-sm" type="text" placeholder="Address Line 1" name="address" id="Address"
+                  required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="name">City</label>
+                <input class="form-control form-control-sm" type="name" placeholder="Residential City" name="email" id="email"
+                  required>
+            </div>
+              <div class="mb-3">
+                <label class="form-label" for="best-meal">State</label>
+                <select name="best-meal" id="best=meal" class="form-select">
+                  <option selected>Select your State</option>
+                  <option value="Pomo">Pomo</option>
+                  <option value="beans">Beans</option>
+                  <option value="Pomo">Tuwo</option>
+                  <option value="Pomo">Yam</option>
+                  <option value="Pomo">Maize</option>
+                  <option value="Pomo">Rice</option>
+                  <option value="Pomo">Eba</option>
+                </select>
+        </div>
+        <br>
+        <a href="" class="btn btn-light rounded-circle">REGISTER</a>
+    </div>
+    <div class="col-6 p-4 g-4 border border-success rounded mx-auto">
+      <h3 class="text text-success p-3">I am already OBIdient</h3>
+        <h3 class="text text-success p-3 ">Login</h3>
+        <div class="mb-3">
+            <label class="form-label" for="name">Full Name</label>
+            <input class="form-control form-control-sm" type="text" placeholder="Enter your name" name="name" id="name"
+              required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="name">Email Address</label>
+            <input class="form-control form-control-sm" type="text" placeholder="Example@gmail.com" name="email" id="email"
+              required>
+              <label class="form-label" for="name">forget password</label>
+              <br>
+              <a href="" class="btn btn-outline-success rounded-circle">LOGIN</a>
+    </div>
+  </div>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
